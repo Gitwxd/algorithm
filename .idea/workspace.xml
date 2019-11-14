@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0c820cc-10db-4607-9252-251a440bdb3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/juejin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/juejin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +25,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1TXzCGH7pNPGqr6wtnegrslKI7l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -58,7 +65,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.dbwxd.concurent.CountDownLatchDemo" />
+      <module name="juejin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.dbwxd.concurent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.dbwxd.concurent.SemaphoreDemo" />
       <module name="juejin" />
@@ -74,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
       </list>
     </recent_temporary>
@@ -96,7 +117,7 @@
       <workItem from="1564628879398" duration="598000" />
       <workItem from="1564629870909" duration="598000" />
       <workItem from="1564649517588" duration="474000" />
-      <workItem from="1573621100580" duration="388000" />
+      <workItem from="1573621100580" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1564022906982</created>
@@ -126,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564028270519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add：信号量">
+      <created>1573621582012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573621582012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add：信号量" />
+    <option name="LAST_COMMIT_MESSAGE" value="add：信号量" />
   </component>
   <component name="masterDetails">
     <states>
